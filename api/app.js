@@ -39,6 +39,9 @@ if(config.env === 'development') {
 
 //--Setup Middleware--//
 
+// Documentation resource
+app.use('/docs', express.static(path.join(__dirname, 'docs')));
+
 // Middleware attachment
 app.use(cors({
   origin: '*',
