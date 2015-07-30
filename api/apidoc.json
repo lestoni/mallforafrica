@@ -2,6 +2,7 @@
   "name": "MallForAfrica API",
   "version": "1.0.0",
   "description": "HTTP API service",
-  "title": "API documentation"
+  "title": "API documentation",
+  "doc-url": "http://mallforafrica-dev.c4asolution.com/docs/"
 }
 

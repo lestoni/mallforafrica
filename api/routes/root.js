@@ -32,7 +32,8 @@ router.get('/', function (req, res, next) {
     res.json({
       name: pkg.name,
       description: pkg.description,
-      version: pkg.version
+      version: pkg.version,
+      documentation: "http://mallforafrica-dev.c4asolution.com/docs/"
     });
   });
 
