@@ -4,6 +4,7 @@
 var EventEmitter = require('events').EventEmitter;
 
 var debug = require('debug')('mallforafrica-api:reversal-controller');
+var emquery = require('emquery');
 
 var reversalDAL     = require('../models/dal/reversal');
 var config        = require('../config');

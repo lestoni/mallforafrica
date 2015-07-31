@@ -4,6 +4,7 @@
 var EventEmitter = require('events').EventEmitter;
 
 var debug = require('debug')('mallforafrica-api:transaction-controller');
+var emquery = require('emquery');
 
 var transactionDAL     = require('../models/dal/transaction');
 var config        = require('../config');
