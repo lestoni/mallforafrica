@@ -20,7 +20,7 @@
     "emquery": "~1.0.2",
     "express": "~4.13.1",
     "express-validator": "~2.13.0",
-    "lodash": "~3.10.0",
+    "lodash": "~4.17.20",
     "moment": "~2.10.6",
     "mongoose": "~4.1.0",
     "mongoose-paginate": "~4.0.0",
